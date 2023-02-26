@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <h1 class="text-red-600 text-3xl font-bold underline">Hello world!</h1>
+    <div class="h-full bg-red-600">red</div>
+    <br /><br /><br /><br /><br />
+    <div class="bg-blue-600 grid place-items-center h-screen"><br>
+
+    </div> -->
+
+    <!-- Before -->
+
+    <nav class="bg-yellow-600 w-full">
+      <div class="grid place-items-center align-items-center">
+        <!-- <div class="h-64 w-screen bg-red-700">Rana Rabees Adeema Amir The Great</div> -->
+        <h1 class="bg-red-600 text-9xl text-yellow-300">RanaVerse</h1>
+      </div>
+      <span class="bg-gray-500 w-full">
+        <Link href="./about.html"> About </Link>
+        <br /><br />
+      </span>
+      <span class="bg-green-600 w-full"><Link href="./contact.html"> contact </Link> <br /><br /></span>
+      <span class="bg-pink-600 w-full"> <Link href="./service.html"> service </Link> <br /><br /></span>
+      <span class="bg-yellow-400 w-full">
+        <Link href="./home.html"> home </Link>
+
+        <br /><br
+      /></span>
+      <button
+      class="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-green-600"
+    >
+      good
+    </button>
+
+    <!-- After -->
+    <button
+      class="bg-sky-700 px-4 py-2 text-white hover:bg-red-600 sm:px-8 sm:py-3"
+    >
+      wrong
+    </button>
+    </nav>
+    <div class="hover:bg-red-600 chat-notification">
+      <div class="chat-notification-logo-wrapper">
+        <img
+          class="hover:shadow chat-notification-logo"
+          src="./docs.jpg"
+          alt="ChitChat Logo"
+        />
+      </div>
+      <div class="chat-notification-content">
+        <h4 class="chat-notification-title">ChitChat</h4>
+        <p class="chat-notification-message">You have a new message!</p>
+      </div>
+    </div>
+
+    <style>
+      .chat-notification {
+        display: flex;
+        max-width: 24rem;
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      .chat-notification-logo-wrapper {
+        flex-shrink: 0;
+      }
+      .chat-notification-logo {
+        height: 3rem;
+        width: 3rem;
+      }
+      .chat-notification-content {
+        margin-left: 1.5rem;
+        padding-top: 0.25rem;
+      }
+      .chat-notification-title {
+        color: #1a202c;
+        font-size: 1.25rem;
+        line-height: 1.25;
+      }
+      .chat-notification-message {
+        color: #718096;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    </style>
+    <br /><br /><br /><br /><br /><br />
+    <div
+      class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6"
+    >
+      <img
+        class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
+        src="./sun.jpeg"
+        alt="Face"
+      />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">sun</p>
+          <p class="text-slate-500 font-medium">Product Engineer</p>
+        </div>
+        <button
+          class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+        >
+          Message
+        </button>
+      </div>
+    </div>
+   
+  </body>
+</html>
